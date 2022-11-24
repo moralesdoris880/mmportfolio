@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
+import About from "./pages/About";
+import Projects from "./pages/Projects"; 
+import Resume from "./pages/Resume";
+import Nav from "./components/Nav"; 
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <div className="h-screen bg-red-900">  
+        <Nav />
+        <Routes> 
+            <Route path="/resume" element={<Resume />} /> 
+            <Route path="/projects" element={<Projects />} /> 
+            <Route path="/about" element={<About />} /> 
+            <Route path="/" element={<App />} /> 
+        </Routes>
+      </div>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
