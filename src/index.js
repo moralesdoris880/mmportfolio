@@ -16,10 +16,10 @@ root.render(
       <div className="h-screen">  
         <Nav />
         <Routes> 
-            <Route path="/resume" element={<Resume />} /> 
-            <Route path="/projects" element={<Projects />} /> 
-            <Route path="/about" element={<About />} /> 
-            <Route path="/" element={<App />} /> 
+            <Route exact path="/resume" element={<Resume />} /> 
+            <Route exact path="/projects" element={<Projects />} /> 
+            <Route exact path="/about" element={<About />} /> 
+            <Route exact strict path="/" element={<App />} /> 
         </Routes>
       </div>
     </BrowserRouter>
