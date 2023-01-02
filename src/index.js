@@ -13,8 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="h-screen">  
-        <Nav />
+    <div className="h-screen">
+      <div className="h-[94.5%]">  
+        <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} /> 
             <Route exact path="/projects" element={<Projects />} /> 
@@ -22,6 +23,11 @@ root.render(
             <Route exact strict path="/" element={<App />} /> 
         </Routes>
       </div>
+      <div className='bg-gradient-to-r from-cyan-500 to-blue-500 h-[6%] text-center'>
+          <p>Designed by Doris Morales.</p>
+          <p>@ 2023 Meraz Mamun</p>
+      </div>
+    </div>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="flex flex-row justify-around items-center bg-gray-900 h-full">
+    <div className="flex flex-row justify-around items-center bg-gray-900 h-[94%]">
       <div className="mb-40">
         <h1 className="mb-2 font-mono text-4xl text-gray-100 md:text-6xl">
           Hi, I&apos;m <br className="block md:hidden" />
