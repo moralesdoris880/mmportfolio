@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <div className="h-screen">
-      <div className="h-[94.5%]">  
+      <div className="h-full">  
         <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} /> 
@@ -22,11 +22,11 @@ root.render(
             <Route exact path="/about" element={<About />} /> 
             <Route exact strict path="/" element={<App />} /> 
         </Routes>
-      </div>
-      <div className='bg-gradient-to-r from-cyan-500 to-blue-500 h-[6%] text-center'>
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
           <p>Designed by Doris Morales.</p>
           <p>@ 2023 Meraz Mamun</p>
       </div>
+      </div> 
     </div>
     </BrowserRouter>
   </React.StrictMode>
