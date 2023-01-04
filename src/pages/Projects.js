@@ -9,11 +9,11 @@ const [display5,setDisplay5]=useState(false);
 
 
     return (
-      <div>
-        <p>Data Analysis</p>
+      <div className="p-8 bg-gray-900 text-gray-100">
+        <h1 className="text-3xl">Data Analysis</h1>
 
         <div>
-            <h1>Cyclistic Case Study</h1>
+            <h1 className="text-2xl">Cyclistic Case Study</h1>
             <p> The goal of this case is to analyze how casual riders and annual members use Cyclistic bikes differently and apply this analysis to convert more casual riders into annual members.</p>
 
             <h1>Ask Phase</h1>

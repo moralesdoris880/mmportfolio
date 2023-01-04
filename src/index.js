@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <div className="h-screen">
-      <div className="h-full">  
+      <div className="h-full bg-gray-900">  
         <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} /> 
