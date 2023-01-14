@@ -20,7 +20,7 @@ function App() {
         </button></a>
       </div> 
       <div className="z-40">
-        <img className="mb-32 mr-10 rounded-full border-2" alt="Potrait of Meraz Mamun" src="https://media-exp1.licdn.com/dms/image/C4D03AQHojaipPZptxg/profile-displayphoto-shrink_800_800/0/1569163475506?e=1673481600&v=beta&t=a7UUfiuqzGI05HtYs_E8llMbsD-V9nRbF73GqutABYA"/>
+        <img className="mb-32 mr-10 rounded-full border-2" alt="Potrait of Meraz Mamun" src="https://media.licdn.com/dms/image/C4D03AQHojaipPZptxg/profile-displayphoto-shrink_400_400/0/1569163475506?e=1678924800&v=beta&t=dxfqMv1gLcHf3NURRAmXiDewqUrlFSt0IUAao6I5anI"/>
       </div>
     </div>
   );

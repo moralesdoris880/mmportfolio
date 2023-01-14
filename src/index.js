@@ -5,7 +5,8 @@ import App from './App';
 import About from "./pages/About";
 import Projects from "./pages/Projects"; 
 import Resume from "./pages/Resume";
-import Nav from "./components/Nav"; 
+import Nav from "./components/Nav";
+import Project1 from "./pages/Project1";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,7 +18,8 @@ root.render(
       <div className="h-full bg-gray-900">  
         <Nav/>
         <Routes> 
-            <Route exact path="/resume" element={<Resume />} /> 
+            <Route exact path="/resume" element={<Resume />} />
+            <Route exact path="/cyclistic_case" element={<Project1 />} />  
             <Route exact path="/projects" element={<Projects />} /> 
             <Route exact path="/about" element={<About />} /> 
             <Route exact strict path="/" element={<App />} /> 
@@ -25,7 +27,7 @@ root.render(
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
           <p>Designed by Doris Morales.</p>
           <p>@ 2023 Meraz Mamun</p>
-      </div>
+        </div>
       </div> 
     </div>
     </BrowserRouter>
