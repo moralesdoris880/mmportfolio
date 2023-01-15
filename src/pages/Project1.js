@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Project1(){
+const [display0,setDisplay0]=useState(false);
 const [display1,setDisplay1]=useState(false);
 const [display2,setDisplay2]=useState(false);
 const [display3,setDisplay3]=useState(false);
@@ -8,40 +9,76 @@ const [display4,setDisplay4]=useState(false);
 const [display5,setDisplay5]=useState(false);
 
     return(
-        <div>
+        <div className="text-gray-100 p-8 bg-gray-900">
             <div>
-            <h1 className="text-2xl">Cyclistic Case Study</h1>
-            <p> The goal of this case is to analyze how casual riders and annual members use Cyclistic bikes differently and apply this analysis to convert more casual riders into annual members.</p>
+            <div className="flex">
+              <img src="/cycling.png" className="h-36 p-7" alt="bike icon"></img>
+              <a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons" className="hidden">Cycling icons created by Freepik - Flaticon</a>  
+              <h1 className="text-6xl text-sky-300 pb-10 mt-10">Cyclistic Case Study</h1>
+            </div>
+            
 
-            <h1>Ask Phase</h1>
-            <p>How do annual members and casual riders use Cyclistic bikes differently?</p>
-            <p>Why would casual riders buy Cyclistic annual memberships?</p>
-            <p>How can Cyclistic use digital media to influence casual riders to become members?</p>
-            <p>How long do each rider use bikes, organized by rideable type (and casual / member), over the past year on a weekly and monthly basis?</p>
-            <p>How has the percentage of casual-to-members changed over the past year?</p>
+            <div className="flex">
+              <div className="mx-4">
+                <h1 className="text-sky-300 text-2xl">Objective</h1>
+                <ol className="list-disc">
+                  <li>Maximize the number of annual memberships by converting casual riders to annual members</li>
+                  <li>Understand how casual riders and annual members use Cyclistic bikes differently</li>
+                </ol>
+              </div>
 
-            <h1>Key Stakeholders</h1>
-            <p>Lily Moreno: Cyclistic's director of marketing and manager</p>
-            <p>Cyclistic Marketing Analytics Team: A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy</p>
-            <p>Cyclistic Executive Team: Will decide whether to approve the recommended marketing program</p>
+              <div className="mx-4">
+                <h1 className="text-sky-300 text-2xl">Key Stakeholders</h1>
+                <ol className="list-disc">
+                  <li>Lily Moreno: Cyclistic's director of marketing and manager</li>
+                  <li>Cyclistic Marketing Analytics Team: A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy</li>
+                  <li>Cyclistic Executive Team: Will decide whether to approve the recommended marketing program</li>
+                </ol>
+              </div>
+
+              <div className="mx-4">
+                <h1 className="text-sky-300 text-2xl">Data Limitations</h1>
+                <p>Approximately 13.60% of the data for start_station_name / start_station_id and 14.70% of the data for end_station_name / end_station_id for July 2022 are missing, resulting in incomplete data for those 4 columns. Data is also too large to load into an Excel file or SQL database normally.</p>
+              </div>
+            </div>
 
             <div>
-              <h1>Prepare Phase</h1>
-              <button onClick={()=>setDisplay1(!display1)}>+</button>
-              <div style={{display: display1? "block":"none"}}>
-                <p>Create a folder “Bicycle Dataset” that will contain all the relevant excel files for this case study.</p>
-                <p>Download each 2022 csv files from Index of bucket "divvy-tripdata" and place them in the csv subfolder.</p>
-                <p>Appropriately name each CSV file based on the “Month_Year_Riders_Data” format.</p>
-                <p>Convert each file into xlxs file and place them in the appropriate folder.</p>
-                <p>The dataset was provided by Google through the Index of bucket "divvy-tripdata" website.The data itself has been made available by Motivate International Inc. under this license. </p>
-                <p>Personal data regarding each user has been removed.</p>
-                <p>The time period for the data takes place from July 2021 to July 2022.</p>
+              <h1 className="text-sky-300">Visuals</h1>
+            </div>
+
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Ask Phase</h1>
+              <button className="pl-2" onClick={()=>setDisplay0(!display0)}>+</button>
+              <div className="ml-8" style={{display: display0? "block":"none"}}>
+                <ol className="list-decimal">
+                  <li>How do annual members and casual riders use Cyclistic bikes differently?</li>
+                  <li>Why would casual riders buy Cyclistic annual memberships?</li>
+                  <li>How can Cyclistic use digital media to influence casual riders to become members?</li>
+                  <li>How long do each rider use bikes, organized by rideable type (and casual / member), over the past year on a weekly and monthly basis?</li>
+                  <li>How has the percentage of casual-to-members changed over the past year?</li>
+                </ol>
+              </div>
+            </div>
+
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Prepare Phase</h1>
+              <button className="pl-2" onClick={()=>setDisplay1(!display1)}>+</button>
+              <div className="ml-8" style={{display: display1? "block":"none"}}>
+                <ol className="list-decimal">
+                  <li>Create a folder “Bicycle Dataset” that will contain all the relevant excel files for this case study.</li>
+                  <li>Download each 2022 csv files from Index of bucket "divvy-tripdata" and place them in the csv subfolder.</li>
+                  <li>Appropriately name each CSV file based on the “Month_Year_Riders_Data” format.</li>
+                  <li>Convert each file into xlxs file and place them in the appropriate folder.</li>
+                  <li>The dataset was provided by Google through the Index of bucket "divvy-tripdata" website.The data itself has been made available by Motivate International Inc. under this license. </li>
+                  <li>Personal data regarding each user has been removed.</li>
+                  <li>The time period for the data takes place from July 2021 to July 2022.</li>
+                </ol>
               </div>
             </div>
             
-            <div>
-              <h1>Process Phase:</h1>
-              <button onClick={()=>setDisplay2(!display2)}>+</button>
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Process Phase:</h1>
+              <button  className="pl-2" onClick={()=>setDisplay2(!display2)}>+</button>
               <div style={{display: display2? "block":"none"}}>
                 <p>Replace all blank cells for each file with “N/A”.</p>
                 <p>Remove all duplicate rows for each file.</p>
@@ -53,9 +90,9 @@ const [display5,setDisplay5]=useState(false);
               </div>
             </div>
             
-            <div>
-              <h1>Analyze Phase:</h1>
-              <button onClick={()=>setDisplay3(!display3)}>+</button>
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Analyze Phase:</h1>
+              <button className="pl-2" onClick={()=>setDisplay3(!display3)}>+</button>
               <div style={{display: display3? "block":"none"}}>
                 <p>Analyze what percentage of riders are casual riders and annual members.</p>
                 <p>What type of rideable types are most popular for casual riders, annual members, and all members.</p>
@@ -82,9 +119,9 @@ const [display5,setDisplay5]=useState(false);
               </div>
             </div>
             
-            <div>
-              <h1>Share Phase:</h1>
-              <button onClick={()=>setDisplay4(!display4)}>+</button>
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Share Phase:</h1>
+              <button  className="pl-2" onClick={()=>setDisplay4(!display4)}>+</button>
               <div style={{display: display4? "block":"none"}}>
                 <p>rideable_type_all_chart chart is a bar chart that shows the percentage of total riders who use classic, docked, and electric bikes.</p>
                 <p>member_casual_rideable_type_grouped_chart are bar charts that show the breakdown of rideable bikes between annual members and casual riders.</p>
@@ -98,9 +135,9 @@ const [display5,setDisplay5]=useState(false);
               </div>
             </div>
 
-            <div>
-              <h1>Act Phase:</h1>
-              <button onClick={()=>setDisplay5(!display5)}>+</button>
+            <div className="border-4 flex p-4 mb-6">
+              <h1 className="text-sky-300">Act Phase:</h1>
+              <button className="pl-2" onClick={()=>setDisplay5(!display5)}>+</button>
               <div style={{display: display5? "block":"none"}}>
                 <p>No annual members use docked bikes, but 100% of casual riders use them. Classic bikes are the most popular option for rideable types, especially amongst annual members. Why do only casual riders use docked bikes? Probably because docked bikes allow the riders to lock their bikes up throughout the day. Works well with full day passes.</p>
                 <p>Most popular months for riders are May, June, July, and August. Casual riders tend to surpass annual members during the months of July and August. Why does this trend happen? These four months are probably the best months to ride bikes for leisurely activities. The lowest number of riders occur between December and February, where the average 10 year (2010 to 2019) temperature for Chicago is between 17 and 37 degrees fahrenheit. The average 10 year (2010 to 2019) temperature for Chicago during the months of May, June, July, and August is between 51 and 83 degrees fahrenheit. Campaign / marketing efforts to convert casual riders to annual members should take place between January and February, giving enough time for casual riders to see the benefits of annual memberships when summer comes.</p>
@@ -110,10 +147,6 @@ const [display5,setDisplay5]=useState(false);
               </div>
             </div>
             
-            <div>
-              <h1>Data Limitations</h1>
-              <p>Approximately 13.60% of the data for start_station_name / start_station_id and 14.70% of the data for end_station_name / end_station_id for July 2022 are missing, resulting in incomplete data for those 4 columns. Data is also too large to load into an Excel file or SQL database normally.</p>
-            </div>
         </div>
             
         </div>
