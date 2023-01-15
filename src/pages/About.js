@@ -7,6 +7,13 @@ function About() {
         <p className="text-gray-100 whitespace-normal text-lg tracking-wide leading-loose">Nice to meet you! My name is Meraz. I am an aspiring data analyst based in NYC. I have experience making dynamic analytic dashboards on Excel, using MySQL to query data, and scraping data from different websites through R and Python. Outside of work, I enjoy exercising and listening to true crime podcasts.</p>
         
         <p className="text-gray-100 text-4xl font-medium font-mono tracking-wide pt-4 text-sky-300">Skills</p>
+        <ol className="list-disc text-gray-100 ml-4 whitespace-normal text-lg tracking-wide leading-loose">
+          <li>Python</li>
+          <li>R Language</li>
+          <li>Microsoft Office Suite</li>
+          <li>MySQL</li>
+          <li>Tableau</li>
+        </ol>
         
         <p className="text-gray-100 text-4xl font-medium font-mono tracking-wide pt-4 text-sky-300">Contact Me</p>
         
