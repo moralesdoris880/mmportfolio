@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GraphCarousel from "../components/GraphCarousel";
 
 function Project1(){
 const [display0,setDisplay0]=useState(false);
@@ -38,12 +39,17 @@ const [display5,setDisplay5]=useState(false);
 
               <div className="mx-4">
                 <h1 className="text-sky-300 text-2xl">Data Limitations</h1>
-                <p>Approximately 13.60% of the data for start_station_name / start_station_id and 14.70% of the data for end_station_name / end_station_id for July 2022 are missing, resulting in incomplete data for those 4 columns. Data is also too large to load into an Excel file or SQL database normally.</p>
+                <ol className="list-disc">
+                  <li>Approximately 13.60% of the data for start_station_name / start_station_id and 14.70% of the data for end_station_name / end_station_id for July 2022 are missing, resulting in incomplete data for those 4 columns.</li>
+                  <li>Data is also too large to load into an Excel file or SQL database normally.</li>
+                </ol>
               </div>
             </div>
 
             <div>
-              <h1 className="text-sky-300">Visuals</h1>
+              <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4">Visuals</h1>
+
+              <GraphCarousel />
             </div>
 
             <div className="border-4 flex p-4 mb-6">

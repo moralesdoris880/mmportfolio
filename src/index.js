@@ -19,8 +19,8 @@ root.render(
         <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} />
-            <Route exact path="/cyclistic_case" element={<Project1 />} />  
-            <Route exact path="/projects" element={<Projects />} /> 
+            <Route path="/cyclistic_case" element={<Project1 />} />  
+            <Route path="/projects" element={<Projects />} /> 
             <Route exact path="/about" element={<About />} /> 
             <Route exact strict path="/" element={<App />} /> 
         </Routes>
