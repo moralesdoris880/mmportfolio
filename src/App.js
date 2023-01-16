@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function App() {
   return (
     <div className="flex flex-row justify-around items-center bg-gray-900 h-[94%]">
@@ -15,9 +17,9 @@ function App() {
         </h1> 
         {/* Credit to https://vanntile.com/blog/composited-typing-animation for their tutorial */}
         <p className="text-3xl text-gray-100">Aspiring Data Analyst.</p>
-        <a href="/projects"><button className="mt-5 h-14 w-40 bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-100 text-2xl tracking-wide font-mono">
+        <Link to="/projects"><button className="mt-5 h-14 w-40 bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-100 text-2xl tracking-wide font-mono">
           Projects
-        </button></a>
+        </button></Link>
       </div> 
       <div className="z-40">
         <img className="mr-10 rounded-full border-2" alt="Potrait of Meraz Mamun" src="https://media.licdn.com/dms/image/C4D03AQHojaipPZptxg/profile-displayphoto-shrink_400_400/0/1569163475506?e=1678924800&v=beta&t=dxfqMv1gLcHf3NURRAmXiDewqUrlFSt0IUAao6I5anI"/>
