@@ -7,7 +7,7 @@ This web application was made with JS, HTML5, CSS, and React. The focus of this 
 ## Live Demo
 [Live demo](https://merazmamun.onrender.com/) 
 
-<img src="/demoimage.png" alt="Portfolio Website Home Page Screenshot">
+<img src="./demoimage.png" alt="Portfolio Website Home Page Screenshot">
 
 ## Acknowledgments
 
