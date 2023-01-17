@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
 import Project1 from "./pages/Project1";
+import NotFound from './pages/NotFound';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
