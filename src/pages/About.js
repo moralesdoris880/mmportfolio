@@ -10,7 +10,7 @@ function About() {
         <ol className="list-disc text-gray-100 ml-4 whitespace-normal text-lg tracking-wide leading-loose">
           <li>Python</li>
           <li>R Language</li>
-          <li>Microsoft Office Suite</li>
+          <li>Microsoft Excel {"("}VBA & Pivot Tables{")"}</li>
           <li>MySQL</li>
           <li>Tableau</li>
         </ol>
