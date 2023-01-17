@@ -27,7 +27,7 @@ root.render(
             <Route exact strict path="/" element={<App />} />
         </Routes>
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
-          <p>Designed by Doris Morales.</p>
+          <p>Designed by Doris Morales</p>
           <p>@ 2023 Meraz Mamun</p>
         </div>
       </div> 
