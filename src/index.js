@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
 import Project1 from "./pages/Project1";
-import NotFound from './pages/NotFound';
+// import NotFound from './pages/NotFound';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -23,7 +23,7 @@ root.render(
             <Route exact path="/cyclistic_case" element={<Project1 />} />  
             <Route exact path="/projects" element={<Projects />} /> 
             <Route exact path="/about" element={<About />} />
-            <Route path='/*' element={<NotFound />}/>  
+            {/* <Route path='/*' element={<NotFound />}/>   */}
             <Route exact strict path="/" element={<App />} />
         </Routes>
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
