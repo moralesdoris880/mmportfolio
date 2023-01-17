@@ -12,7 +12,11 @@ body{
     color: #F3F4F6;
     margin: 0;
 }
-
+#homelink{
+    font-family: 'Lato', sans-serif;
+    color: #F3F4F6;
+    margin: 0;
+}
 #main{
     display: table;
     width: 100%;
