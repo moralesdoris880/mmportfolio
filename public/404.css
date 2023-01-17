@@ -1,5 +1,6 @@
 *{
     transition: all 0.6s;
+    background-color: #111827;
 }
 
 html {
@@ -8,7 +9,7 @@ html {
 
 body{
     font-family: 'Lato', sans-serif;
-    color: #888;
+    color: #F3F4F6;
     margin: 0;
 }
 
