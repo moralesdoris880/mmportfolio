@@ -21,7 +21,7 @@ root.render(
             <Route exact path="/resume" element={<Resume />} />
             <Route exact path="/cyclistic_case" element={<Project1 />} />  
             <Route exact path="/projects" element={<Projects />} /> 
-            <Route exact path="/about" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route exact strict path="/" element={<App />} />
         </Routes>
         <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
