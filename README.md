@@ -5,7 +5,7 @@ A static web application for a data analyst portfolio.
 This web application was made with JS, HTML5, CSS, and React. The focus of this project was to build a static web application using Tailwind CSS library. Honorable mentions of libraries used would be React-Router-Dom, React-Responsive-Carousel, and React-PDF.
 
 ## Live Demo
-[Live demo](https://merazmamun.onrender.com/) 
+[Live demo](https://63c73e75e0f01f65aeb4c503--preeminent-twilight-8ab011.netlify.app/) 
 
 ![alt text](https://github.com/moralesdoris880/mmportfolio/blob/main/public/demoimage.png "Portfolio Website Home Page Screenshot")
 
