@@ -14,14 +14,23 @@ function About() {
           <li>MySQL</li>
           <li>Tableau</li>
         </ol>
-        
-        <p className="text-gray-100 text-4xl font-medium font-mono tracking-wide pt-4 text-sky-300">Contact Me</p>
-        
-        <div className="flex space-x-4 m-2 pt-4">
-          <a  className="w-1/12 h-2/4" href="mailto: abc@example.com"><img src="/email.png" alt="email logo"/></a>
-          <a  className="w-1/12 h-2/4" href="https://www.linkedin.com/in/merazmamun/"><img src="/linkedin.png" alt="linkedin logo"/></a>
-          <a className="w-1/12 h-2/4" href="https://www.youtube.com/@merazmamun-analytics2158"><img src="/youtube.png" alt="youtube logo"/></a>
+        <div className="flex">
+          <div className="m-2 mr-10">
+            <p className="text-gray-100 text-4xl font-medium font-mono tracking-wide pt-4 text-sky-300">Contact Me</p>
+            <p className="text-gray-100 whitespace-normal text-lg tracking-wide leading-loose">mmamun3739@gmail.com</p>
+          </div>
+          <div className="flex-col m-2">
+            <p className="text-gray-100 text-4xl font-medium font-mono tracking-wide pt-4 text-sky-300">Socials</p>
+            <div className="flex space-x-4 pt-4">
+              <a  className="w-2/12 h-2/4" href="mailto: mmamun3739@gmail.com"><img src="/email.png" alt="email logo"/></a>
+              <a  className="w-2/12 h-2/4" href="https://www.linkedin.com/in/merazmamun/"><img src="/linkedin.png" alt="linkedin logo"/></a>
+              <a  className="w-2/12 h-2/4" href="https://github.com/merazmamun"><img src="/gitlogo.png" alt="email logo"/></a>
+              <a className="w-2/12 h-2/4" href="https://www.youtube.com/@merazmamun-analytics2158"><img src="/youtube.png" alt="youtube logo"/></a>
+            </div>
+          </div>
         </div>
+        
+        
         </div>
       </div>
     );
