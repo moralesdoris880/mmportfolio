@@ -25,7 +25,7 @@ function Projects() {
             <a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons" className="hidden">Cycling icons created by Freepik - Flaticon</a>
             <div className="p-7">
               <h1 className="text-sky-300 text-3xl pb-4">Fortune 500 Ranking</h1>
-              {/* <p>The goal of this case is to analyze how casual riders and annual members use Cyclistic bikes differently and apply this analysis to convert more casual riders into annual members.</p> */}
+              <p>The goal of this case is to create a barchart race of the top 10 Fortune 500 companies from 1955 to 2022, using Python, MySQL, and Tableau.</p>
               <Link to="/fortune500_case">
                 <button className="mt-5 h-10 w-40 bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-100 text-l tracking-wide font-mono">
                   More Info
