@@ -26,7 +26,7 @@ function Projects() {
             <div className="p-7">
               <h1 className="text-sky-300 text-3xl pb-4">Fortune 500 Ranking</h1>
               {/* <p>The goal of this case is to analyze how casual riders and annual members use Cyclistic bikes differently and apply this analysis to convert more casual riders into annual members.</p> */}
-              <Link to="/">
+              <Link to="/fortune500_case">
                 <button className="mt-5 h-10 w-40 bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-100 text-l tracking-wide font-mono">
                   More Info
                 </button>

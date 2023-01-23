@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
 import Project1 from "./pages/Project1";
+import Project2 from "./pages/Project2";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +20,7 @@ root.render(
         <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} />
+            <Route exact path="/fortune500_case" element={<Project2 />} />  
             <Route exact path="/cyclistic_case" element={<Project1 />} />  
             <Route exact path="/projects" element={<Projects />} /> 
             <Route exact path="/about" element={<About />} />

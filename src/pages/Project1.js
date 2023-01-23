@@ -49,7 +49,7 @@ const [display5,setDisplay5]=useState(false);
             <div>
               <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4">Visuals</h1>
 
-              <GraphCarousel />
+              <GraphCarousel width="120" />
             </div>
 
             <div className="border-4 border-sky-300 flex p-4 mb-6">
