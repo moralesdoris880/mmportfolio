@@ -121,9 +121,10 @@ const [display5,setDisplay5]=useState(false);
                 </ol>
               </div>
             </div>
+
+            <a href="https://github.com/merazmamun/fortune-500" className="pl-2 hover:text-sky-300" >Github Repo on Fortune 500 Case Study</a>
             
-        </div>
-            
+          </div>     
         </div>
     );
 }

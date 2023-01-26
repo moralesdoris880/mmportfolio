@@ -51,7 +51,7 @@ const [display5,setDisplay5]=useState(false);
               <GraphCarousel width="120" />
             </div>
 
-            <div>
+            <div className="mb-6">
               <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4">Youtube</h1>
               <iframe width="800" height="500" src="https://www.youtube.com/embed/2O4RWHIfI3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -161,8 +161,7 @@ const [display5,setDisplay5]=useState(false);
 
             <a href="https://github.com/merazmamun/cyclistic" className="pl-2 hover:text-sky-300" >Github Repo on Cyclistic Case Study</a>
             
-        </div>
-            
+          </div>   
         </div>
     );
 }
