@@ -47,13 +47,13 @@ const [display5,setDisplay5]=useState(false);
             </div>
 
             <div>
-              <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4">Presentation</h1>
-              <GraphCarousel width="120" />
+              <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4 text-center w-full">Presentation</h1>
+              <GraphCarousel/>
             </div>
 
             <div className="mb-6">
-              <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4">Youtube</h1>
-              <iframe width="800" height="500" src="https://www.youtube.com/embed/2O4RWHIfI3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <h1 className="text-sky-300 text-2xl ml-4 mb-4 mt-4 text-center w-full">Youtube</h1>
+              <iframe className="ml-72" width="800" height="500" src="https://www.youtube.com/embed/2O4RWHIfI3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div className="border-4 border-sky-300 flex p-4 mb-6">

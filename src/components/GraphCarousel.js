@@ -3,8 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 function GraphCarousel(){
     return(
-        <div className="w-1/2">
-            <Carousel>
+        <div className="w-3/4 pl-48">
+            <Carousel width={1000}>
             <div>
                 <img src="/page1.png" alt="first page presentation"/>
                 {/* <p className="legend">Enter Description</p> */}
