@@ -6,6 +6,30 @@ function GraphCarousel(){
         <div className="w-1/2">
             <Carousel>
             <div>
+                <img src="/page1.png" alt="first page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page2.png" alt="second page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page3.png" alt="third page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page4.png" alt="fourth page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page5.png" alt="fifth page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page6.png" alt="six page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
                 <img src="/graph0.png" alt="graph"/>
                 {/* <p className="legend">Enter Description</p> */}
             </div> 
@@ -37,6 +61,18 @@ function GraphCarousel(){
                 <img src="/graph7.png" alt="graph"/>
                 {/* <p className="legend">Enter Description</p> */}
             </div> 
+            <div>
+                <img src="/page7.png" alt="seventh page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page8.png" alt="eighth page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
+            <div>
+                <img src="/page9.png" alt="ninth page presentation"/>
+                {/* <p className="legend">Enter Description</p> */}
+            </div>
             </Carousel> 
         </div>
     );

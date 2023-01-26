@@ -28,12 +28,11 @@ const [display5,setDisplay5]=useState(false);
             </div>
 
             <div>
-              <h1 className="text-sky-300 text-2xl ml-4 mt-4">Tableau Dashboards</h1>
+              <h1 className="text-sky-300 text-2xl ml-4 mt-4">Tableau Dashboard</h1>
               <ol className="list-disc ml-4 mb-2">
                 <li className="hover:text-sky-300"><a href="https://public.tableau.com/app/profile/meraz.mamun/viz/shared/QM4HHCGS3">Dashboard 1</a></li>
-                <li className="hover:text-sky-300"><a href="https://public.tableau.com/app/profile/meraz.mamun/viz/Fortune500Ranking/Fortune_500_Bar_Chart_Race_Animation">Dashboard 2</a></li>
               </ol>
-              <img className="mb-6" src="/tableaugraph-1.png" alt="Example of the tableau graph"/>
+              {/* <img className="mb-6" src="/tableaugraph-1.png" alt="Example of the tableau graph"/> */}
             </div>
 
             <div className="border-4 border-sky-300 flex p-4 mb-6">
