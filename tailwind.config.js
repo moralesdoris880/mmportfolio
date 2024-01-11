@@ -9,24 +9,20 @@ module.exports = {
   plugins: [],
   theme: {
     extend: {
-      animation: {
-        type: 'type 2.7s ease-out .9s infinite alternate both',
-      },
       keyframes: {
         type: {
-          '0%': { transform: 'translateX(0ch)' },
-          '5%, 10%': { transform: 'translateX(1ch)' },
-          '15%, 20%': { transform: 'translateX(2ch)' },
-          '25%, 30%': { transform: 'translateX(3ch)' },
-          '35%, 40%': { transform: 'translateX(4ch)' },
-          '45%, 50%': { transform: 'translateX(5ch)' },
-          '55%, 60%': { transform: 'translateX(6ch)' },
-          '65%, 70%': { transform: 'translateX(7ch)' },
-          '75%, 80%': { transform: 'translateX(8ch)' },
-          '85%, 90%': { transform: 'translateX(10ch)' },
-          '92%, 93%': { transform: 'translateX(12ch)' },
-          '95%, 100%': { transform: 'translateX(18ch)' },
+          '0%': { transform: 'rotate(0.0 deg)'},
+          '15%': { transform: 'rotate(14.0deg)'},
+          '30%': { transform: 'rotate(-8.0deg)'},
+          '40%': { transform: 'rotate(14.0deg)'},
+          '50%': { transform: 'rotate(-4.0deg)'},
+          '60%': { transform: 'rotate(10.0deg)'},
+          '70%': { transform: 'rotate(0.0deg)'},
+          '100%': { transform: 'rotate(0.0deg)'}
         },
+        animation: {
+          wave:'wave 1.5s infinite',
+        }
       },
     },
   },
