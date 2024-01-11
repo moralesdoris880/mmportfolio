@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        type: 'type 2.7s ease-out .8s infinite alternate both',
+        type: 'type 2.7s ease-out .9s infinite alternate both',
       },
       keyframes: {
         type: {
@@ -25,7 +25,7 @@ module.exports = {
           '75%, 80%': { transform: 'translateX(8ch)' },
           '85%, 90%': { transform: 'translateX(10ch)' },
           '92%, 93%': { transform: 'translateX(12ch)' },
-          '95%, 100%': { transform: 'translateX(16ch)' },
+          '95%, 100%': { transform: 'translateX(18ch)' },
         },
       },
     },

@@ -25,7 +25,7 @@ function About() {
               <a  className="w-2/12 h-2/4" href="mailto: mmamun3739@gmail.com"><img src="/email.png" alt="email logo"/></a>
               <a  className="w-2/12 h-2/4" href="https://www.linkedin.com/in/merazmamun/"><img src="/linkedin.png" alt="linkedin logo"/></a>
               <a  className="w-2/12 h-2/4" href="https://github.com/merazmamun"><img src="/gitlogo.png" alt="email logo"/></a>
-              <a className="w-2/12 h-2/4" href="https://www.youtube.com/@merazmamun-analytics2158"><img src="/youtube.png" alt="youtube logo"/></a>
+              <a className="w-2/12 h-2/4" href="https://www.youtube.com/@merazmamun-analytics"><img src="/youtube.png" alt="youtube logo"/></a>
             </div>
           </div>
         </div>
