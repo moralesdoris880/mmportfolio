@@ -20,8 +20,7 @@ function Nav() {
               isActive ? activeStyle : undefined }>About</NavLink></li>
         <li className=" text-gray-100 text-xl hover:text-teal-200"><NavLink to="/projects" style={({ isActive }) =>
               isActive ? activeStyle : undefined }>Projects</NavLink></li>
-        <li className=" text-gray-100 text-xl hover:text-teal-200"><NavLink to="/resume" style={({ isActive }) =>
-              isActive ? activeStyle : undefined }>Resume</NavLink></li>
+        <li className=" text-gray-100 text-xl hover:text-teal-200"><a href='Meraz_Mamun_Resume.pdf' download >Resume</a></li>
     </ul>
     </div>    
     );
