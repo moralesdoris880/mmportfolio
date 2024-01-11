@@ -20,7 +20,7 @@ function App() {
         </button></Link>
       </div> 
       <div className="z-40 w-1/2">
-        <img className="rounded-full border-2 w-3/4" alt="Potrait of Meraz Mamun" src="/meraz.jpg"/>
+        <img className="rounded-full border-2 w-3/4" alt="Potrait of Meraz Mamun" src="/mmamun.jpeg"/>
       </div>
     </div>
   );
