@@ -16,7 +16,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <div className="h-screen">
-      <div className="h-full bg-gradient-to-r bg-gradient-to-r from-cyan-500 to-blue-500">  
+      <div className="h-full bg-gradient-to-r from-cyan-500 to-blue-500">  
         <Nav/>
         <Routes> 
             <Route exact path="/resume" element={<Resume />} />

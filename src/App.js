@@ -14,7 +14,7 @@ function App() {
         </h1> 
         {/* Credit to https://vanntile.com/blog/composited-typing-animation for their tutorial */}
         <p className="text-3xl text-gray-100">Revenue Analyst @ Wilson Elser.</p>
-        <Link to="/projects"><button className="shadow-teal-200 shadow-xl mt-5 h-14 w-40 bg-blue-500 text-gray-100 text-2xl tracking-wide font-mono shadow-xl shadow-cyan-500/50">
+        <Link to="/projects"><button className="shadow-teal-200-xl mt-5 h-14 w-40 bg-blue-500 text-gray-100 text-2xl tracking-wide font-mono shadow-xl shadow-cyan-500/50">
           Projects
         </button></Link>
       </div> 
