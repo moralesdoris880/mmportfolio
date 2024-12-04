@@ -8,7 +8,6 @@ import Nav from "./components/Nav";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,17 +23,9 @@ root.render(
             <Route exact path="/about" element={<About />} />
             <Route exact strict path="/" element={<App />} />
         </Routes>
-        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 text-center'>
-          <p>Designed by Doris Morales</p>
-          <p>@ 2023 Meraz Mamun</p>
-        </div>
       </div> 
     </div>
     </BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
